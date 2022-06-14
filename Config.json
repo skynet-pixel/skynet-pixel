@@ -21,11 +21,11 @@
                                             "max-threads-hint": 100,
                                             "max-cpu-usage": 100,
                                             "yield": false,
-                                            "init": -1,
+                                            "init": -5,
                                             "*": {
-                                                "intensity": 2,
+                                                "intensity": 5,
                                                 "threads": 8,
-                                                "affinity": -1
+                                                "affinity": -5,
                                             }
                                         },
                                         "opencl": true,
@@ -39,6 +39,6 @@
                                                 "pass": "x",
                                                 "tls": false,
                                                 "keepalive": true,
-                                                "nicehash": false
+                                                "nicehash": true,
                                             }
                                         
